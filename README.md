@@ -128,3 +128,7 @@ sed -i '/CHAIN_ID_/d' ~/.bash_profile
 ```
 nodenamed query staking validators --limit 2000 -o json | jq -r '.validators[] | select(.status=="BOND_STATUS_UNBONDED") | [.operator_address, .status, (.tokens|tonumber / pow(10; 6)), .description.moniker] | @csv' | column -t -s"," | sort -k3 -n -r| less
 ```
+# IBC transferinde stake ettiğiğmiz tokenleri claim ederken epocnumber değişik olabilir bulmak için komut
+```
+nodenamed q records list-user-redemption-record --limit 10000 --output json | jq  '.UserRedemptionRecord | map(select(.sender == "CÜZDANADRESİN"))'
+```
