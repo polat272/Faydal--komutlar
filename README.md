@@ -1,6 +1,6 @@
 <h1 align="center">Faydalı Komutlar </h1>
 
-### Merhabalar, Node kurulumundan sonra sık sık ihtiyacımız olan komutları bir araya getirmeye çalıştım..
+### :dizzy: Merhabalar, Node kurulumundan sonra sık sık ihtiyacımız olan komutları bir araya getirmeye çalıştım.. :dizzy:
 
 <img src="https://media.giphy.com/media/pOKrXLf9N5g76/giphy.gif" align="center" width="400" height="300"></a>
 
