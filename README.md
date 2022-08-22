@@ -7,11 +7,13 @@
 # Log kontrol
 ```
 journalctl -fu nodenamed -o cat
+journalctl -u nodenamed -f
 ```
 # Sistemi başlat
 ```
 sudo systemctl start nodenamed
 ```
+
 # Sistemi durdur
 ```
 sudo systemctl stop nodenamed
@@ -20,6 +22,15 @@ sudo systemctl stop nodenamed
 ```
 sudo systemctl restart nodenamed
 ```
+# Dosyaya giriş
+```
+nano /root/.nodenamed/config/app.toml
+```
+# Dosyaya girip pruning kapatma
+```
+nano /root/.nodenamed/config/app.toml
+```
+
 ### Düğüm Bilgisi
 
 # Senkorizasyon bilgisi
