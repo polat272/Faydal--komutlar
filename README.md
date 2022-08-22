@@ -24,7 +24,7 @@ sudo systemctl restart nodenamed
 ```
 # Dosyaya giriş
 ```
-nano /root/.nodenamed/config/app.toml
+nano /root/.nodenamed/config/config.toml
 ```
 # Dosyaya girip pruning kapatma
 ```
