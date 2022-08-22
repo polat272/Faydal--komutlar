@@ -1,4 +1,4 @@
-<h1 align="center">Faydalı Komutlar </h1>
+<h1 align="center">:dizzy:Faydalı Komutlar:dizzy: </h1>
 
 ### :dizzy: Merhabalar, Node kurulumundan sonra sık sık ihtiyacımız olan komutları bir araya getirmeye çalıştım.. :dizzy:
 
