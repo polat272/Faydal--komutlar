@@ -39,6 +39,10 @@ nano /root/.nodenamed/config/app.toml
 ```
 nodenamed status 2>&1 | jq .SyncInfo
 ```
+# Senkorizasyon tahmin süresi
+```
+wget -O synctime.py https://raw.githubusercontent.com/kj89/testnet_manuals/main/gaia/tools/synctime.py && python3 ./synctime.py
+```
 # Validator bilgisi
 ```
 nodenamed status 2>&1 | jq .ValidatorInfo
