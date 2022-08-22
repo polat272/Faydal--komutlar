@@ -2,7 +2,7 @@
 
 ### :dizzy: Merhabalar, Node kurulumundan sonra sık sık ihtiyacımız olan komutları bir araya getirmeye çalıştım.. :dizzy:
 
-<a href="https://discord.gg/discord.gg/ruescommunity" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="discord.gg/ruescommunity" height="40" width="40" /></a>
+<a href="https://discord.gg/discord.gg/ruescommunity" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="discord.gg/ruescommunity" height="40" width="40" /></a>
 
 <img src="https://media.giphy.com/media/pOKrXLf9N5g76/giphy.gif" align="center" width="400" height="300"></a>
 
