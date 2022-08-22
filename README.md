@@ -2,7 +2,7 @@
 
 ### Merhabalar, Node kurulumundan sonra sık sık ihtiyacımız olan komutları bir araya getirmeye çalıştım..
 
-<img src="https://media.giphy.com/media/pOKrXLf9N5g76/giphy.gif" align="right" width="400" height="300">
+<img src="https://media.giphy.com/media/pOKrXLf9N5g76/giphy.gif" width="400" height="300">
 
 # Log kontrol
 ```
