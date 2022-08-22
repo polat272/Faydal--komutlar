@@ -103,6 +103,10 @@ nodenamed tx stakeibc redeem-stake 500 $CHAIN $chainadres  --chain-id $CHAIN_ID 
 nodenamed tx stakeibc claim-undelegated-tokens $CHAIN8claimedecegimizag $epocnumber $çekilecekadres --chain-id $CHAIN_ID --from $cuzdanadı -y
 
 ```
+# IBC transferinde stake ettiğiğmiz tokenleri claim ederken epocnumber değişik olabilir bulmak için komut
+```
+nodenamed q records list-user-redemption-record --limit 10000 --output json | jq  '.UserRedemptionRecord | map(select(.sender == "CÜZDANADRESİN"))'
+```
 
 ### Validator komutları
 
@@ -137,8 +141,4 @@ sed -i '/CHAIN_ID_/d' ~/.bash_profile
 # Terminalden Validator Kontrolü(explorerde görünmediği zaman terminalden kontrol edilebilir ENTER tuşu ile isimler akar)
 ```
 nodenamed query staking validators --limit 2000 -o json | jq -r '.validators[] | select(.status=="BOND_STATUS_UNBONDED") | [.operator_address, .status, (.tokens|tonumber / pow(10; 6)), .description.moniker] | @csv' | column -t -s"," | sort -k3 -n -r| less
-```
-# IBC transferinde stake ettiğiğmiz tokenleri claim ederken epocnumber değişik olabilir bulmak için komut
-```
-nodenamed q records list-user-redemption-record --limit 10000 --output json | jq  '.UserRedemptionRecord | map(select(.sender == "CÜZDANADRESİN"))'
 ```
