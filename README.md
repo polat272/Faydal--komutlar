@@ -111,3 +111,7 @@ sudo rm $HOME/.nodename* -rf
 sudo rm $HOME/nodename -rf
 sed -i '/CHAIN_ID_/d' ~/.bash_profile
 ```
+# Terminalden Validator Kontrolü(explorerde görünmediği zaman terminalden kontrol edilebilir ENTER tuşu ile isimler akar)
+```
+nodenamed query staking validators --limit 2000 -o json | jq -r '.validators[] | select(.status=="BOND_STATUS_UNBONDED") | [.operator_address, .status, (.tokens|tonumber / pow(10; 6)), .description.moniker] | @csv' | column -t -s"," | sort -k3 -n -r| less
+```
