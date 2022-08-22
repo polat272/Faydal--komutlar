@@ -94,6 +94,16 @@ nodenamed tx distribution withdraw-all-rewards --from=$walletname --chain-id=$CH
 nodenamed tx distribution withdraw-rewards $valoperadress --from=$walletname --commission --chain-id=$CHAIN_ID
 ```
 
+# IBC staking-reedem-claim komutları
+```
+nodenamed tx stakeibc liquid-stake 1000 uatom --from $CÜZDAN ADINIZ --chain-id $CHAIN_ID --gas auto -y
+
+nodenamed tx stakeibc redeem-stake 500 $CHAIN $chainadres  --chain-id $CHAIN_ID --from $CÜZDANADIN --gas 500000 -y
+
+nodenamed tx stakeibc claim-undelegated-tokens $CHAIN8claimedecegimizag $epocnumber $çekilecekadres --chain-id $CHAIN_ID --from $cuzdanadı -y
+
+```
+
 ### Validator komutları
 
 # Validator düzenle
