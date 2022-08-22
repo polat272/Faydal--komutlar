@@ -100,10 +100,8 @@ nodenamed tx staking edit-validator \
     --from=$walletname
     --chain-id=$CHAIN_ID
     --gas=auto
-    ```
-
- ### Düğümü Sil
- 
+```
+### Düğümü Sil
  ```
 sudo systemctl stop nodenamed
 sudo systemctl disable nodenamed
