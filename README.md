@@ -14,6 +14,10 @@ journalctl -u nodenamed -f
 # Sistemi başlat
 ```
 sudo systemctl start nodenamed
+
+systemctl restart systemd-journald
+
+nodenamed start
 ```
 
 # Sistemi durdur
