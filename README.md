@@ -28,6 +28,12 @@ sudo systemctl stop nodenamed
 ```
 sudo systemctl restart nodenamed
 ```
+# Peer ekleme komutu ve ögrenme
+```
+PEERS=""
+sed -i "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/;" $HOME/.nodename/config/config.toml
+systemctl restart nodenamed
+```
 # Dosyaya giriş
 ```
 nano /root/.nodenamed/config/config.toml
