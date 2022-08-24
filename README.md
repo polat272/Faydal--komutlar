@@ -33,6 +33,7 @@ sudo systemctl restart nodenamed
 PEERS=""
 sed -i "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/;" $HOME/.nodename/config/config.toml
 systemctl restart nodenamed
+echo "$(nodenamed tendermint show-node-id)@$(curl ifconfig.me):26656"
 ```
 # Dosyaya giriş
 ```
