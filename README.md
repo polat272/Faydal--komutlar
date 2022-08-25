@@ -43,7 +43,12 @@ nano /root/.nodenamed/config/config.toml
 ```
 nano /root/.nodenamed/config/app.toml
 ```
+# Gprc ve Rpc adresi öğrenme
+```
+echo "$(curl -s ifconfig.me)$(grep -A 6 "\[grpc\]" ~/.nodename/config/app.toml | egrep -o ":[0-9]+")"
 
+echo "$(curl -s ifconfig.me)$(grep -A 3 "\[rpc\]" ~/.nodename/config/config.toml | egrep -o ":[0-9]+")"
+```
 ### Düğüm Bilgisi
 
 # Senkorizasyon bilgisi
