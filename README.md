@@ -11,10 +11,13 @@
 journalctl -fu nodenamed -o cat
 journalctl -u nodenamed -f
 ```
-# Sistem hafıza kontrolü
+# Sistem hafıza ve ram cpu kontrolü
 ```
 df -h
 df 
+htop
+vmstat top
+
 ```
 # Sistemi başlat
 ```
