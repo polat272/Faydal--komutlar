@@ -11,6 +11,11 @@
 journalctl -fu nodenamed -o cat
 journalctl -u nodenamed -f
 ```
+# Sistem hafıza kontrolü
+```
+df -h
+df 
+```
 # Sistemi başlat
 ```
 sudo systemctl start nodenamed
